@@ -10,7 +10,7 @@ function insert_Row() {
 	td2.textContent="New Cell2";
 	row.appendChild(td1);
 	row.appendChild(td2);
-	table.insertBefore(row,table.firstChild)
+	table.insertBefore(row,table.rows[0])
 
   
   
